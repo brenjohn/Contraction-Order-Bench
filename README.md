@@ -1,5 +1,7 @@
 # Contraction-Order-Bench
 
+The qflex qasm files are in data/circuits/ 
+
 This code base is using the Julia Language and [DrWatson](https://juliadynamics.github.io/DrWatson.jl/stable/)
 to make a reproducible scientific project named
 > Contraction-Order-Bench
