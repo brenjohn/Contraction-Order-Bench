@@ -1,0 +1,12 @@
+name = "Contraction-Order-Bench"
+authors = ["brenjohn"]
+
+[deps]
+DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+QXTools = "84f0eee1-10ae-40da-994b-b9d0e53829ae"
+Yao = "5872b779-8223-5990-8dd0-5abbb0748c8c"
+YaoQX = "be8e1072-a1b2-4b4a-a8a2-7a0da38e4604"
+
+[compat]
+DrWatson = "2.5.0"
+julia = "1.6.1"
