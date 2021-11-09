@@ -32,5 +32,5 @@ for params in param_dicts
     @show tc, sc
 
     results = merge(Dict(["method"=>string(typeof(method).name.name), "cirq_name"=>cirq_name, "time"=>time, "time_complexity"=>tc, "space_complexity"=>sc]))
-    wsave(datadir("flowcutter_results", cirq_name, savename(Dict(["method"=>string(typeof(method).name.name)]), "jld2", ignores="cirq_name")), results)
+    wsave(datadir("yao_results", cirq_name, savename(Dict(["method"=>string(typeof(method).name.name)]), "jld2", ignores="cirq_name")), results)
 end
